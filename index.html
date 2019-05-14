@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>飞机大战</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- <embed src = '蔡健雅 - 红色高跟鞋.mp3' autostart = 'true' loop = 'loop' hidden="true"></embed> -->
+	<p id="top">停止鼠标左键</br>
+	ps:无敌模式只能坚持10秒哦</p>
+	<section>
+		<div id="center">
+			<div id="box1">
+				<div id="box2">
+					<button onclick="begin();">开始游戏</button>
+				</div>
+			</div>
+			<div id="maindiv">
+				<div id = "score">
+					<label>分数：</label>
+					<label id = "score1">0</label>
+				</div>
+				<div id = "enddiv">kll
+					<p class="a">你的分数为：</p>
+					<p id = "endscore">0</p>
+					<div id="retu">
+						<button onclick="isGetlife();">复活</button>
+					</div>
+				</div>
+				<div id="whenOnclick">
+					<button onclick="continueGame();">继续</button>
+					<button onclick="retur();">回到主页面</button>
+					<button onclick="addlife1();">增加生命值</button>
+					<button onclick="voctory();">开启无敌模式</button>
+				</div>
+				<div id="retu1">
+					<p>抱歉，你的生命值不足！</p>
+					<button onclick="retur();">重新开始</button>
+
+				</div>
+				<div id="addlife">
+					<p>你的金币不足了</p>
+					<button onclick="continueGame();">继续</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section>
+		<div id ="right">
+			<p>赶紧迎接挑战吧！</p>
+			<span>关数：</span>
+			<span>lv：</span>
+				<label id="guanshu">1</label>
+			</br></br>
+			<span id="chat">hhh~,飞机大战欢迎你</span>
+			<div>
+				<img src="image/加生命.png">
+				<span>生命值：</span>
+				<label id="lifea">0</label></br></br>
+				<img src="image/金钱.png">
+				<span>金钱：</span>
+				<label id="money">0</label></br></br>
+				<img src="image/子弹.png">
+				<span>子弹：</span>
+				<label id="zidan">0</label>
+			</div>
+		</div>
+	</section>
+</body>
+<script type="text/javascript" src="./js/commonVar.js"></script>
+<script type="text/javascript" src="./js/enemy.js"></script>
+<script type="text/javascript" src="./js/ourPlan.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</html>
