@@ -1,5 +1,7 @@
 var box1 = document.getElementById("box1");
 
+
+// add 注释
 function addEventListener() {
 
     //添加鼠标移动事件和鼠标移除事件和点击事件
